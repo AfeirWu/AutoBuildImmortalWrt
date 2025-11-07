@@ -48,3 +48,13 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-theme-argon"
+
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-argon-config"
+
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-argon-config-zh-cn"
+
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-samba4-zh-cn"
+
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-dufs-zh-cn"
